@@ -1,0 +1,102 @@
+.container {
+  max-width: 1300px;
+  margin: 0 auto;
+  
+}
+
+.main {
+  
+  height: 100vh;
+  background-image: url(../../../public/images/dishCard/bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  object-fit: contain;
+}
+
+.dishHeader {
+    display: flex;
+    gap: 200px;
+    justify-content: space-between;
+    align-items: baseline;
+    margin-bottom: 25px;
+    &__return {
+      background: none;
+      border: none;
+    }
+}
+
+.dish {
+  padding: 46px 0;
+  
+  &__title {
+    color: #D58C51;
+    font-size: 30px;
+    line-height: 37px;
+    margin-bottom: 20px;
+  }
+  &__description {
+    color: #fff;
+    line-height: 17px;
+    padding-bottom: 80px;
+  }
+  &__add {
+    padding: 12px 62px;
+    line-height: 17px;
+    background-color: #D58C51;
+  }
+  &__exit {
+    color: #D58C51;
+    background: transparent;
+    border-color: #D58C51;
+    padding: 12px 75px;
+
+  }
+
+  &__row {
+    display: flex;
+    justify-content: space-between;
+    gap: 200px;
+    align-items: center;
+  }
+  &__img {
+    height: 500px;
+    width: 500px;
+  }
+}
+
+.price {
+  font-size: 23px;
+  line-height: 28px;
+  font-weight: 500;
+}
+
+.portion {
+  font-size: 18px;
+  line-height: 22px;
+}
+
+.cartPreview {
+    display: flex;
+    gap: 20px;
+  &__info {
+    font-size: 17px;
+    line-height: 21px;
+    font-weight: 500;
+    text-align: right;
+    color: #fff;
+    margin-right: 20px;
+  }
+  &__btn {
+    cursor: pointer;
+    background: none;
+    border: none;
+  }
+}
+
+.column__footer {
+  display: flex;
+  align-items: center;
+  gap: 68px;
+  color:#fff;
+}
+

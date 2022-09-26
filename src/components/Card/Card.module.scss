@@ -1,0 +1,71 @@
+.card {
+  border: 1px solid #D58C51;
+  background-color: #161516;
+  padding: 40px 18px 36px 18px;
+  height: 552px;
+  display: flex;
+  flex-direction: column;
+  cursor: pointer;
+  transition: all 0.3s;
+  &:hover {
+    transform: scale(0.99, 0.99);
+  }
+  &:hover {
+      color: #D58C51;
+  }
+  &__title {
+    font-size: 17px;
+    line-height: 21px;
+    font-weight: 500;
+    text-align: left;
+    line-height: 21px;
+    margin-bottom: 10px;
+  }
+
+  &__description {
+    line-height: 17px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+  }
+   /*справка тут: https://webref.ru/recipe/2687*/
+}
+
+
+
+.card__preview {
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 31px;
+  width: 270px;
+  height: 270px;
+}
+
+.card__center {
+  flex: 1 1 auto;
+}
+
+.card__bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.card__price {
+  font-size: 17px;
+}
+
+.card__btn {
+  background: none;
+  cursor:auto;
+
+  border: none;
+}
+
+.card__btn:hover {
+  background-image: url(../../../public/images/icons/hoverBtn.png);
+  background-position: center;
+  background-repeat: no-repeat;
+}

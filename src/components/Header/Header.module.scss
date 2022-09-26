@@ -1,0 +1,25 @@
+.header {
+  background-color: #161516;
+  padding: 15px 0;
+
+  .container {
+    max-width: 1300px;
+    margin: 0 auto;
+  }
+
+  ul {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  a {
+    font-size: 20px;
+    color: #fff;
+    text-decoration: none;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+
+}

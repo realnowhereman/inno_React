@@ -1,0 +1,82 @@
+.login {
+  height: calc(100vh - 118px);
+  background-image: url(../../../public/images/login/login_bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  object-fit: cover;
+  padding-top: 15%;
+  &__form {
+    background-color: #fff;
+    color: #301411;
+    max-width: 460px;
+    padding: 35px 20px;
+  }
+}
+
+.form {
+  margin: auto;
+  
+  
+  &__title {
+    font-size: 31px;
+    line-height: 38px;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 36px;
+  }
+  &__input {
+    display: block;
+    padding: 10px 18px;
+    margin: 0 auto;
+    margin-bottom: 15px;
+    width: 100%;
+    border-radius: 61px;
+    border: 1px solid #D58C51;
+    background-color: #fff;
+    outline: none;
+  }
+  &__cbox {
+    margin-bottom: 30px;
+    label {
+      font-size: 11px;
+      line-height: 13px;
+      font-weight: 300;
+    }
+
+    input.form__checkbox {
+      display: none;
+    }
+
+    input.form__checkbox + label {
+      margin-right: 10px;
+      display: inline-block;
+      width: 18px;
+      height: 18px;
+      border: 1px solid #D58C51;
+      border-radius: 50%;
+      cursor: pointer;
+    }
+      input.form__checkbox:checked + label:after {
+        position: relative;
+        top: -2px;
+        left: 2px;
+        content: '\2714';
+        font-size: 18px;
+      }
+
+      .likeLabel {
+        vertical-align: top;
+      }
+
+
+  }
+  &__btn {
+    display: block;
+    margin: 0 auto;
+    border: none;
+    padding: 12px 77px;
+    background-color: #D58C51;
+    
+  }
+}
